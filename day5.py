@@ -1,8 +1,8 @@
-#Area and parameter of circle
+#Area and perimeter of circle
 
 r = float(input("Enter the Radius:- "))
 area = 3.14*r*r
-parameter = 2*3.14*r
+perimeter = 2*3.14*r
 
 print("Area of circle:- ",area)
-print("Parameter of circle:- ",parameter)
+print("Perimeter of circle:- ",perimeter)
