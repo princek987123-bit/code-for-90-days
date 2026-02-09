@@ -8,14 +8,14 @@ sub5 = int(input("Enter subject5 marks: "))
 avg = (sub1 + sub2 + sub3 + sub4 + sub5)/5
 
 if avg>=90:
-    print("A+")
+    print("You got grade: A+")
 elif avg>=80:
-    print("A")
+    print("You got grade: A")
 elif avg>=60:
-    print("B+")
+    print("You got grade: B+")
 elif avg>=50:
-    print("B")
+    print("You got grade: B")
 elif avg>=33:
-    print("C")
+    print("You got grade: C")
 else:
-    print("Fail ")
+    print("You are Fail ")
